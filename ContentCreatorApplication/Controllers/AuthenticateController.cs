@@ -25,7 +25,6 @@ namespace ContentCreatorApplication.Controllers
             _configuration = configuration;
         }
 
-
         [HttpPost]
         [Route("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
