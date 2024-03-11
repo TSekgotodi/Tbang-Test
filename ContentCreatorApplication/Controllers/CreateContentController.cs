@@ -1,12 +1,14 @@
 ﻿using ContentCreatorApplication.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography.X509Certificates;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace ContentCreatorApplication.Controllers
 {
-    [Authorize(Roles = UserRoles.User)]
+
+    [Authorize(Roles = UserRoles.Admin)]
     [Route("api/[controller]")]
     [ApiController]
     public class CreateContentController : ControllerBase
@@ -14,7 +16,7 @@ namespace ContentCreatorApplication.Controllers
       
         public CreateContentController()
         {
-                    
+                string ContentCreatorApplication= null;      
         }
         // GET: api/<CreateContentController>
         [HttpGet]
