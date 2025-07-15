@@ -17,9 +17,9 @@ namespace AdventSolutions.Services
 
             int guardRow = -1;
             int guardCol = -1;
-            int guardDirection = -1; // 0: Up, 1: Right, 2: Down, 3: Left
+            int guardDirection = -1; 
 
-            // Parse grid and find initial guard position/direction
+            
             for (int r = 0; r < rows; r++)
             {
                 for (int c = 0; c < cols; c++)
@@ -29,37 +29,36 @@ namespace AdventSolutions.Services
                     {
                         guardRow = r;
                         guardCol = c;
-                        guardDirection = 0; // Up
+                        guardDirection = 0; 
                     }
                     else if (grid[r, c] == '>')
                     {
                         guardRow = r;
                         guardCol = c;
-                        guardDirection = 1; // Right
+                        guardDirection = 1; 
                     }
                     else if (grid[r, c] == 'v')
                     {
                         guardRow = r;
                         guardCol = c;
-                        guardDirection = 2; // Down
+                        guardDirection = 2; 
                     }
                     else if (grid[r, c] == '<')
                     {
                         guardRow = r;
                         guardCol = c;
-                        guardDirection = 3; // Left
+                        guardDirection = 3; 
                     }
                 }
             }
 
-            // Define row and column changes for each direction
-            // Index: 0=Up, 1=Right, 2=Down, 3=Left
-            int[] dr = { -1, 0, 1, 0 }; // Change in row for each direction
-            int[] dc = { 0, 1, 0, -1 }; // Change in column for each direction
+           
+            int[] dr = { -1, 0, 1, 0 }; 
+            int[] dc = { 0, 1, 0, -1 }; 
 
             HashSet<(int r, int c)> visitedPositions = new HashSet<(int r, int c)>();
 
-            // Simulation loop
+           
             while (guardRow >= 0 && guardRow < rows && guardCol >= 0 && guardCol < cols)
             {
                 visitedPositions.Add((guardRow, guardCol));
@@ -67,25 +66,25 @@ namespace AdventSolutions.Services
                 int nextRow = guardRow + dr[guardDirection];
                 int nextCol = guardCol + dc[guardDirection];
 
-                // Check if there's an obstacle or boundary directly in front
+               
                 bool obstacleInFront = false;
                 if (nextRow < 0 || nextRow >= rows || nextCol < 0 || nextCol >= cols)
                 {
-                    obstacleInFront = true; // Boundary is an obstacle
+                    obstacleInFront = true; 
                 }
                 else if (grid[nextRow, nextCol] == '#')
                 {
-                    obstacleInFront = true; // Obstruction
+                    obstacleInFront = true; 
                 }
 
                 if (obstacleInFront)
                 {
-                    // Turn right 90 degrees
+                    
                     guardDirection = (guardDirection + 1) % 4;
                 }
                 else
                 {
-                    // Take a step forward
+                    
                     guardRow = nextRow;
                     guardCol = nextCol;
                 }
