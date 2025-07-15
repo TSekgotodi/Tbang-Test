@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|c:\\users\\tsekgotodi\\source\\repos\\adventsolutions\\adventsolutions\\services\\bridgerepair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|solutionrelative:adventsolutions\\services\\bridgerepair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\adventsolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|solutionrelative:adventsolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\adventsolutions\\services\\guardgallivant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|solutionrelative:adventsolutions\\services\\guardgallivant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\adventsolutions\\services\\printqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|solutionrelative:adventsolutions\\services\\printqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\adventsolutions\\services\\ceressearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|solutionrelative:adventsolutions\\services\\ceressearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\adventsolutions\\services\\historianhysteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|solutionrelative:adventsolutions\\services\\historianhysteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\adventsolutions\\services\\mullitover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|solutionrelative:adventsolutions\\services\\mullitover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\adventsolutions\\services\\rednosedreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8DFC5B-D2C9-42DE-8004-ECC1C9E162B6}|AdventSolutions\\AdventSolutions.csproj|solutionrelative:adventsolutions\\services\\rednosedreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BridgeRepair.cs",
+              "DocumentMoniker": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\BridgeRepair.cs",
+              "RelativeDocumentMoniker": "AdventSolutions\\Services\\BridgeRepair.cs",
+              "ToolTip": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\BridgeRepair.cs",
+              "RelativeToolTip": "AdventSolutions\\Services\\BridgeRepair.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T21:03:34.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GuardGallivant.cs",
+              "DocumentMoniker": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\GuardGallivant.cs",
+              "RelativeDocumentMoniker": "AdventSolutions\\Services\\GuardGallivant.cs",
+              "ToolTip": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\GuardGallivant.cs",
+              "RelativeToolTip": "AdventSolutions\\Services\\GuardGallivant.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T20:40:55.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MullItOver.cs",
+              "DocumentMoniker": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\MullItOver.cs",
+              "RelativeDocumentMoniker": "AdventSolutions\\Services\\MullItOver.cs",
+              "ToolTip": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\MullItOver.cs",
+              "RelativeToolTip": "AdventSolutions\\Services\\MullItOver.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAFoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T10:28:02.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RedNosedReport.cs",
+              "DocumentMoniker": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\RedNosedReport.cs",
+              "RelativeDocumentMoniker": "AdventSolutions\\Services\\RedNosedReport.cs",
+              "ToolTip": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\RedNosedReport.cs",
+              "RelativeToolTip": "AdventSolutions\\Services\\RedNosedReport.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T09:58:00.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HistorianHysteria.cs",
+              "DocumentMoniker": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\HistorianHysteria.cs",
+              "RelativeDocumentMoniker": "AdventSolutions\\Services\\HistorianHysteria.cs",
+              "ToolTip": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\HistorianHysteria.cs",
+              "RelativeToolTip": "AdventSolutions\\Services\\HistorianHysteria.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T09:28:41.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Program.cs",
+              "RelativeDocumentMoniker": "AdventSolutions\\Program.cs",
+              "ToolTip": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Program.cs",
+              "RelativeToolTip": "AdventSolutions\\Program.cs",
+              "ViewState": "AgIAAFcDAAAAAAAAAAAAAG0DAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T09:12:43.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CeresSearch.cs",
+              "DocumentMoniker": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\CeresSearch.cs",
+              "RelativeDocumentMoniker": "AdventSolutions\\Services\\CeresSearch.cs",
+              "ToolTip": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\CeresSearch.cs",
+              "RelativeToolTip": "AdventSolutions\\Services\\CeresSearch.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAHwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T19:44:05.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrintQueue.cs",
+              "DocumentMoniker": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\PrintQueue.cs",
+              "RelativeDocumentMoniker": "AdventSolutions\\Services\\PrintQueue.cs",
+              "ToolTip": "C:\\Users\\TSekgotodi\\source\\repos\\AdventSolutions\\AdventSolutions\\Services\\PrintQueue.cs",
+              "RelativeToolTip": "AdventSolutions\\Services\\PrintQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T20:05:25.539Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

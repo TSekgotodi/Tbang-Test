@@ -1,0 +1,7 @@
+C:\Users\TSekgotodi\source\repos\AdventSolutions\AdventSolutions\bin\Debug\AdventSolutions.exe.config
+C:\Users\TSekgotodi\source\repos\AdventSolutions\AdventSolutions\bin\Debug\AdventSolutions.exe
+C:\Users\TSekgotodi\source\repos\AdventSolutions\AdventSolutions\bin\Debug\AdventSolutions.pdb
+C:\Users\TSekgotodi\source\repos\AdventSolutions\AdventSolutions\obj\Debug\AdventSolutions.csproj.AssemblyReference.cache
+C:\Users\TSekgotodi\source\repos\AdventSolutions\AdventSolutions\obj\Debug\AdventSolutions.csproj.CoreCompileInputs.cache
+C:\Users\TSekgotodi\source\repos\AdventSolutions\AdventSolutions\obj\Debug\AdventSolutions.exe
+C:\Users\TSekgotodi\source\repos\AdventSolutions\AdventSolutions\obj\Debug\AdventSolutions.pdb
