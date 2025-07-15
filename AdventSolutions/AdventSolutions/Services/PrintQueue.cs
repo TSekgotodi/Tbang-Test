@@ -12,7 +12,7 @@ namespace AdventSolutions.Services
         {
             var sections = input.Split(new string[] { "\r\n\r\n", "\n\n" }, StringSplitOptions.RemoveEmptyEntries);
 
-            // Parse rules
+           
             List<(int before, int after)> rules = new List<(int before, int after)>();
             foreach (var ruleLine in sections[0].Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries))
             {
@@ -20,7 +20,7 @@ namespace AdventSolutions.Services
                 rules.Add((int.Parse(parts[0]), int.Parse(parts[1])));
             }
 
-            // Parse updates
+           
             List<List<int>> updates = new List<List<int>>();
             foreach (var updateLine in sections[1].Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries))
             {
@@ -33,14 +33,10 @@ namespace AdventSolutions.Services
 
             foreach (var updateList in updates)
             {
-                // Only process incorrectly ordered updates
+                
                 if (!IsValidOrder(updateList, rules))
                 {
                     List<int> sortedUpdate = TopologicalSort(updateList, rules);
-
-                    // For an update list of N pages, the middle page is at index N / 2 (integer division)
-                    // The problem states that updates will always have an odd number of pages,
-                    // so N/2 will correctly give the middle index.
                     int middlePageIndex = sortedUpdate.Count / 2;
                     totalMiddlePagesSum += sortedUpdate[middlePageIndex];
                 }
@@ -49,7 +45,7 @@ namespace AdventSolutions.Services
             return totalMiddlePagesSum;
         }
 
-        // This function from Part 1 remains the same
+       
         private static bool IsValidOrder(List<int> updateList, List<(int before, int after)> allRules)
         {
             Dictionary<int, int> pagePositions = new Dictionary<int, int>();
@@ -76,36 +72,36 @@ namespace AdventSolutions.Services
             }
             return true;
         }
-        // New function for Topological Sort
+       
         private static List<int> TopologicalSort(List<int> pagesInUpdate, List<(int before, int after)> allRules)
         {
-            // 1. Build the graph and calculate in-degrees
+            
             Dictionary<int, List<int>> graph = new Dictionary<int, List<int>>();
             Dictionary<int, int> inDegree = new Dictionary<int, int>();
 
-            // Initialize in-degrees for all pages in the current update to 0
+           
             foreach (int page in pagesInUpdate)
             {
-                graph[page] = new List<int>(); // Initialize adjacency list for all pages
+                graph[page] = new List<int>(); 
                 inDegree[page] = 0;
             }
 
-            // Apply relevant rules to build the graph and update in-degrees
+            
             foreach (var rule in allRules)
             {
                 int beforePage = rule.before;
                 int afterPage = rule.after;
 
-                // Only consider rules where both pages are present in the current update
+                
                 if (pagesInUpdate.Contains(beforePage) && pagesInUpdate.Contains(afterPage))
                 {
-                    // Add edge: beforePage -> afterPage
+                    
                     graph[beforePage].Add(afterPage);
                     inDegree[afterPage]++;
                 }
             }
 
-            // 2. Initialize queue with pages having in-degree 0
+           
             Queue<int> queue = new Queue<int>();
             foreach (int page in pagesInUpdate)
             {
@@ -115,27 +111,25 @@ namespace AdventSolutions.Services
                 }
             }
 
-            // 3. Perform topological sort
+           
             List<int> sortedOrder = new List<int>();
             while (queue.Count > 0)
             {
                 int currentPage = queue.Dequeue();
                 sortedOrder.Add(currentPage);
 
-                // For each neighbor of the current page
+               
                 foreach (int neighbor in graph[currentPage])
                 {
-                    inDegree[neighbor]--; // Decrement neighbor's in-degree
+                    inDegree[neighbor]--; 
                     if (inDegree[neighbor] == 0)
                     {
-                        queue.Enqueue(neighbor); // If in-degree becomes 0, add to queue
+                        queue.Enqueue(neighbor); 
                     }
                 }
             }
 
-            // Basic check for cycles (though problem implies valid sorts are always possible)
-            // If sortedOrder.Count != pagesInUpdate.Count, there was a cycle.
-            // For this problem, it's generally safe to assume no cycles are formed by the valid rules.
+            
 
             return sortedOrder;
         }
